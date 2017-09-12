@@ -3,14 +3,6 @@ package LinkedList;
 /**
  * Created by Administrator on 2017/9/11 0011.
  */
-class Node {
-    public int value;
-    public Node next;
-    public Node(int data) {
-        this.value = data;
-    }
-}
-
 public class PrintCommonPart {
     public void printCommonLinkedList(Node head1, Node head2) {
         while (head1 != null & head2 != null) {
